@@ -1,7 +1,7 @@
 // import "../styles/style.css";
 import "../styles/style.css";
-import { setupCounter } from "./counter.js";
 import AOS from "aos";
+import "aos/dist/aos.css";
 
 AOS.init();
 import { menu } from "./menu";
