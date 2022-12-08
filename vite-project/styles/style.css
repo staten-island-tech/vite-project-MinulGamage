@@ -9,21 +9,34 @@ body,
 
 :root{
    --light-blue: #2998ff;
+   --dark-blue: #135cc5;
+   --light-red: #f87171;
+   --dark-red: #dc2626;
+   --dark-brown:#5C4033;
+   --brown: #964B00;
+   --beige: #ffe4c4;
+   --black:#000000;
+
+   --primary: var(--beige);
+   --secondary: var(--dark-brown);
 }
+
+
 
 body {
-  background-color: var(--light-blue);
+  background-color: var(--primary);
 }
 
-h1 {
-  font-size: 3.2em;
+.website-header {
+  font-size: 3.2rem;
   line-height: 1.1;
+  background-color: ;
 }
 
 .header-animation {
   margin: 0px auto;
   text-align: center;
-  color: yellow;
+  color: rgb(255, 228, 196);
   font-size: 10vh;
   background-color: black;
 }
@@ -32,6 +45,20 @@ h1 {
   background-color: blue;
   height: 90vh;
 }
+
+.btn{
+
+}
+
+
+.lightmode{
+
+}
+
+.darkmode{
+
+}
+
 
 #app {
   max-width: 1280px;
