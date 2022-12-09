@@ -16,9 +16,9 @@ body,
    --brown: #964B00;
    --beige: #ffe4c4;
    --black:#000000;
-
+   --cool-brown: #C1ABA6;
    --primary: var(--beige);
-   --secondary: var(--dark-brown);
+   --secondary: var(--cool-brown);
 }
 
 
@@ -30,7 +30,8 @@ body {
 .website-header {
   font-size: 3.2rem;
   line-height: 1.1;
-  background-color: ;
+  background-color: var(--cool-brown) ;
+  text-align: center;
 }
 
 .header-animation {
