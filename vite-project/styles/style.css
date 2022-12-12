@@ -16,6 +16,10 @@ body,
    --brown: #964B00;
    --beige: #ffe4c4;
    --black:#000000;
+   --gray: #252c30;
+   --silver: 	#C0C0C0;
+   --gold: #CD853F;
+   --ash: #544C4A;
    --cool-brown: #C1ABA6;
    --primary: var(--beige);
    --secondary: var(--cool-brown);
@@ -27,11 +31,17 @@ body {
   background-color: var(--primary);
 }
 
+.header {
+  background-color: var(--black);
+  
+}
+
 .website-header {
   font-size: 3.2rem;
-  line-height: 1.1;
   background-color: var(--cool-brown) ;
   text-align: center;
+  border: black solid 4px;
+  border-radius: 20px;
 }
 
 .header-animation {
@@ -43,21 +53,27 @@ body {
 }
 
 .animation {
-  background-color: blue;
+  background-color: rgb(0, 0, 0);
   height: 90vh;
 }
 
-.btn{
-
+.button{
+  height: 7rem;
+  width: 14rem;
+  border-radius: 20%;
+  font-size: 1.8rem;
+  margin: 10px auto;
 }
 
 
 .lightmode{
-
+--primary: var(--beige);
+--secondary: var(--cool-brown);
 }
 
 .darkmode{
-
+--primary: var(--ash);
+--secondary: var(--dark-brown);
 }
 
 
