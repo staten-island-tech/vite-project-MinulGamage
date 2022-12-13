@@ -1,6 +1,7 @@
-/* import { menu } from "./menu";
+import { menu } from "./menu";
 
 const DOMSelectors = {
   button: document.getElementById("btn"),
 };
- */
+
+export { DOMSelectors };
