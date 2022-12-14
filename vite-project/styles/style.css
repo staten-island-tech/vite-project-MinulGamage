@@ -36,11 +36,12 @@ body {
 }
 
 .website-header {
-  font-size: 3.2rem;
-  background-color: var(--cool-brown) ;
+  font-size: 4rem;
+  background-color: var(--secondary) ;
   text-align: center;
   border: black solid 4px;
   border-radius: 20px;
+  padding: 19px;
 }
 
 .header-animation {
@@ -73,19 +74,21 @@ body {
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-.openingIMG {
-  width: 0.2rem;
-  height: 0.2rem;
+.background {
+  width: 190.5rem;
+  height: 220rem;
 }
 
 .lightmode{
 --primary: var(--beige);
 --secondary: var(--cool-brown);
+color: black;
 }
 
 .darkmode{
 --primary: var(--ash);
 --secondary: var(--dark-brown);
+color: white;
 }
 
 #app {
