@@ -29,6 +29,7 @@ body,
 
 body {
   background-color: var(--primary);
+  background-image: https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80;
 }
 
 .header {
@@ -60,7 +61,7 @@ body {
 .button{
   height: 7rem;
   width: 20rem;
-  border-radius: 20%;
+  border-radius: 35%;
   font-size: 1.8rem;
   align-items: center;
   justify-content: center;

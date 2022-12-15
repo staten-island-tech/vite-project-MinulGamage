@@ -7,10 +7,10 @@ AOS.init();
 import { menu } from "./menu";
 
 document.querySelector("#app").innerHTML = `<div class="parent">
-<p>${menu.name}</p>
+<h3>${menu.name}</h3>
 <img src="${menu.img}"/>
-<p class="PricePerPie">Price Per Pie:${menu.PricePerPie}</p>
-<p class="PricePerSlice">Price Per Slice:${menu.PricePerSlice}</p>
+<p class="PricePerPie">Price Per Pie: ${menu.PricePerPie}</p>
+<p class="PricePerSlice">Price Per Slice: ${menu.PricePerSlice}</p>
 </div>`;
 
 console.log(menu);
