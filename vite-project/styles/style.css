@@ -29,7 +29,14 @@ body,
 
 body {
   background-color: var(--primary);
-  background-image: https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.117),
+    rgba(55, 2, 2, 0.203)
+  ), url("https://images.unsplash.com/photo-1489564239502-7a532064e1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2hlZiUyMG1ha2luZyUyMHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  backdrop-filter: blur(4.5px);
+  background-size: 150vw;
+  background-size: 200vh
 }
 
 .header {
@@ -97,7 +104,7 @@ color: white;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  height: 130vh;
+  height: 100vh;
   width: 100vw;
 }
 

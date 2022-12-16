@@ -6,7 +6,7 @@ import { DOMSelectors } from "./DOM";
 AOS.init();
 import { menu } from "./menu";
 
-document.querySelector("#app").innerHTML = `<div class="parent">
+document.querySelector("#app").innerHTML = `<div class="card">
 <h3>${menu.name}</h3>
 <img src="${menu.img}"/>
 <p class="PricePerPie">Price Per Pie: ${menu.PricePerPie}</p>
