@@ -35,7 +35,6 @@ body {
     rgba(55, 2, 2, 0.203)
   ), url("https://images.unsplash.com/photo-1489564239502-7a532064e1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2hlZiUyMG1ha2luZyUyMHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
   backdrop-filter: blur(4.5px);
-  background-size: 150vw;
   background-size: 200vh
 }
 
@@ -62,14 +61,15 @@ body {
 
 .animation {
   background-color: rgb(0, 0, 0);
-  height: 90vh;
+  height: 40vh;
 }
 
 .button{
+  padding: 1.5rem 4rem;
   height: 7rem;
   width: 20rem;
-  border-radius: 35%;
-  font-size: 1.8rem;
+  border-radius: 10rem;
+  font-size: 3rem;
   align-items: center;
   justify-content: center;
   margin: 10px auto;
@@ -95,8 +95,8 @@ color: black;
 
 .darkmode{
 --primary: var(--ash);
---secondary: var(--dark-brown);
-color: white;
+--secondary: var(--black);
+color: rgb(255, 228, 196);
 }
 
 #app {
