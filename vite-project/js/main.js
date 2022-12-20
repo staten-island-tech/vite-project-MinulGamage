@@ -15,18 +15,19 @@ import { menu } from "./menu";
 </div>`
 ); */
 
-document.querySelector("#app").innerHTML = `
+/* document.querySelector("#app").innerHTML = `
 <div class="card">
 <h3>${menu.name}</h3>
 <img src="${menu.img}"/>
 <p class="PricePerPie">Price Per Pie: ${menu.PricePerPie}</p>
 <p class="PricePerSlice">Price Per Slice: ${menu.PricePerSlice}</p>
 </div>`;
-
-/* menu.forEach((menu) => {
-  DOMSelectors.displayContainer.insertAdjacentHTML(
+ */
+menu.forEach((menu) => {
+  DOMSelectors.box.insertAdjacentHTML(
     "afterbegin",
-    `<div class="card">
+    `
+    <div class="card">
    <h2 class="item">${menu.name}</h2>
    <div class="img-container">
    <img src="${menu.img}"
@@ -37,7 +38,7 @@ document.querySelector("#app").innerHTML = `
    </div>`
   );
 });
- */
+
 console.log(menu);
 
 DOMSelectors.button.addEventListener("click", function () {
