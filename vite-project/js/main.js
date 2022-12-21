@@ -2,27 +2,10 @@ import "../styles/style.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { DOMSelectors } from "./DOM";
-
+import { theme } from "./index";
 AOS.init();
 import { menu } from "./menu";
 
-/* document.getElementById("#app").insertAdjacentHTML(
-  "afterend,"`<div class="card">
-<h3>${menu.name}</h3>
-<img src="${menu.img}"/>
-<p class="PricePerPie">Price Per Pie: ${menu.PricePerPie}</p>
-<p class="PricePerSlice">Price Per Slice: ${menu.PricePerSlice}</p>
-</div>`
-); */
-
-/* document.querySelector("#app").innerHTML = `
-<div class="card">
-<h3>${menu.name}</h3>
-<img src="${menu.img}"/>
-<p class="PricePerPie">Price Per Pie: ${menu.PricePerPie}</p>
-<p class="PricePerSlice">Price Per Slice: ${menu.PricePerSlice}</p>
-</div>`;
- */
 menu.forEach((menu) => {
   DOMSelectors.box.insertAdjacentHTML(
     "afterbegin",
@@ -40,13 +23,3 @@ menu.forEach((menu) => {
 });
 
 console.log(menu);
-
-DOMSelectors.button.addEventListener("click", function () {
-  if (document.body.classList.contains("lightmode")) {
-    document.body.classList.add("darkmode");
-    document.body.classList.remove("lightmode");
-  } else {
-    document.body.classList.add("lightmode");
-    document.body.classList.remove("darkmode");
-  }
-});

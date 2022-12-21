@@ -48,14 +48,6 @@ const menu = [
     BestSeller: false,
   },
   {
-    name: "Calzone",
-    vegetarian: false,
-    PricePerSlice: 5.59,
-    PricePerPie: 10.99,
-    img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=902&q=80",
-    BestSeller: false,
-  },
-  {
     name: "Deep-Fried Cheese Pizza",
     vegetarian: true,
     PricePerSlice: 2.59,

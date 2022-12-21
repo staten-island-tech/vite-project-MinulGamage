@@ -37,7 +37,8 @@ body {
   backdrop-filter: blur(4.5px);
   background-size: 200vh;
   border-right: var(--secondary) solid 5px;
-  border-left: var(--secondary) solid 5px
+  border-left: var(--secondary) solid 5px;
+  border-bottom: var(--secondary) solid 5px;
 }
 
 .opening {
@@ -105,22 +106,41 @@ body {
 
 .card {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex: 200px;
+  flex-wrap: wrap;
 }
 .menu-card {
  border: var(--gold) solid 2px;
  background-color: var(--secondary);
  color: var(--primary);
- margin: 0px auto;
+ font-size: 30px;
+ height: 30rem;
+ width: 30rem;
+ display: flex;
+ flex-direction: column;
+ flex: 200px;
+ flex-wrap: wrap;
+ justify-content: center;
+ text-align: center;
+ padding: 20px;
+ margin: 10px auto;
+ align-items: center;
+ border-radius: 10%;
+ /* margin: 20px auto;
  padding: 10px;
  display: flex;
  flex-wrap: wrap;
  flex-direction: column;
  justify-content: center;
+ border-radius: 30%;
+ width: 20rem;
+ height: 10rem;
+ align-items: center; */
 }
 
 .menu-img {
-  width: 1rem;
+  width: 7rem;
 }
 
 .menu {
