@@ -2,6 +2,9 @@ import "../styles/style.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { DOMSelectors } from "./DOM";
+import { cardCreator } from "./main";
+import { Filters } from "./DOM";
+import { menu } from "./menu";
 
 const theme = DOMSelectors.button.addEventListener("click", function () {
   if (document.body.classList.contains("lightmode")) {
@@ -13,12 +16,21 @@ const theme = DOMSelectors.button.addEventListener("click", function () {
   }
 });
 
-const bestseller = DOMSelectors.bestseller.addEventListener(
+/* const bestseller = DOMSelectors.bestseller.addEventListener(
   "click",
   function removeCards() {
     DOMSelectors.card.innerHTML = DOMSelectors.clear;
   }
 );
+ */
+function removeCards() {
+  DOMSelectors.box.innerHTML = DOMSelectors.clear;
+}
 
+DOMSelectors.cheapbtn.addEventListener("click", function (event) {
+  removeCards();
+  cardCreator(Filters.CheapMenu);
+});
+
+cardCreator(menu);
 export { theme };
-export { bestseller };
