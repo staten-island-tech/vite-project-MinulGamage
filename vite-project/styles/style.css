@@ -74,7 +74,7 @@ body {
 
 .animation {
   background-color: var(--primary);
-  height: 40vh;
+  height: 20vh;
   border-top: var(--secondary) solid 4px;
 }
 
@@ -102,6 +102,28 @@ body {
 .background {
   width: 190.5rem;
   height: 220rem;
+}
+
+.filters{
+  background-color: var(--primary);
+  height: 25vh;
+}
+
+.filterButtons {
+background-color: var(--secondary);
+border: var(--gold) solid 3px;
+border-radius: 10rem;
+color: var(--primary);
+padding: 1.5rem 4rem;
+height: 7rem;
+width: 20rem;
+font-size: 2rem;
+transform: all 2.0s;
+}
+
+.filterButtons:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .card {

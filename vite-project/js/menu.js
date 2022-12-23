@@ -96,7 +96,7 @@ const menu = [
     BestSeller: false,
   },
   {
-    name: "Costco Cheese Pizza",
+    name: "Neopolitan Cheese Pizza",
     vegetarian: true,
     PricePerSlice: 1.99,
     PricePerPie: 9.95,

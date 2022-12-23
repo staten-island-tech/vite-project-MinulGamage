@@ -13,4 +13,12 @@ const theme = DOMSelectors.button.addEventListener("click", function () {
   }
 });
 
+const bestseller = DOMSelectors.bestseller.addEventListener(
+  "click",
+  function removeCards() {
+    DOMSelectors.card.innerHTML = DOMSelectors.clear;
+  }
+);
+
 export { theme };
+export { bestseller };
