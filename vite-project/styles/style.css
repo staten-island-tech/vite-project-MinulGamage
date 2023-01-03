@@ -122,6 +122,8 @@ font-weight: bold;
 .filterButtons {
 text-align: center;
 align-items: center;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: bold;
 margin: 30px;
 background-color: var(--secondary);
 border: var(--gold) solid 3px;
@@ -133,6 +135,7 @@ width: 20rem;
 font-size: 2rem;
 transform: all 2.0s;
 }
+
 
 .filterButtons:hover {
   transform: translateY(-2px);
