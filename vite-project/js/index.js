@@ -58,5 +58,5 @@ DOMSelectors.meatbtn.addEventListener("click", function (event) {
   removeCards();
   cardCreator(Filters.MeatMenu);
 });
-cardCreator(menu);
+
 export { theme };
