@@ -7,8 +7,8 @@ import { theme } from "./index";
 AOS.init();
 import { menu } from "./menu";
 
-function cardCreator(x) {
-  x.forEach((menu) => {
+function cardCreator(cardfilter) {
+  cardfilter.forEach((menu) => {
     DOMSelectors.box.insertAdjacentHTML(
       "afterbegin",
       `

@@ -33,4 +33,30 @@ DOMSelectors.cheapbtn.addEventListener("click", function (event) {
 });
 
 cardCreator(menu);
+
+DOMSelectors.bestsellerbtn.addEventListener("click", function (event) {
+  removeCards();
+  cardCreator(Filters.BestSellerMenu);
+});
+
+DOMSelectors.uniquebtn.addEventListener("click", function (event) {
+  removeCards();
+  cardCreator(Filters.UniqueMenu);
+});
+
+DOMSelectors.completebtn.addEventListener("click", function (event) {
+  removeCards();
+  cardCreator(Filters.CompleteMenu);
+});
+
+DOMSelectors.vegeterianbtn.addEventListener("click", function (event) {
+  removeCards();
+  cardCreator(Filters.VegeterianMenu);
+});
+
+DOMSelectors.meatbtn.addEventListener("click", function (event) {
+  removeCards();
+  cardCreator(Filters.MeatMenu);
+});
+cardCreator(menu);
 export { theme };

@@ -16,7 +16,7 @@ const Filters = {
   CompleteMenu: menu,
   BestSellerMenu: menu.filter((menu) => menu.BestSeller === "true"),
   UniqueMenu: menu.filter((menu) => menu.Unique === "true"),
-  VegeterianMenu: menu.filter((menu) => menu.vegeterian === "true"),
+  VegeterianMenu: menu.filter((menu) => menu.vegetarian === "true"),
   MeatMenu: menu.filter((menu) => menu.meat === "true"),
   CheapMenu: menu.filter((menu) => menu.PricePerPie < 15),
 };
